@@ -30,7 +30,7 @@ A modern web application for analyzing package.json files and their dependencies
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/istealersn-dev/package-analyzer
 cd package-analyzer
 ```
 
