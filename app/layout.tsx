@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Outfit } from 'next/font/google';
 import { ThemeProvider } from "@/components/theme-provider";
 import { Providers } from "@/components/providers";
+import GoogleAnalytics from '@/components/google-analytics';
 
 const outfit = Outfit({ 
   subsets: ['latin'],
@@ -26,6 +27,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <GoogleAnalytics />
       </head>
       <body className={`${outfit.variable} font-sans`}>
         <ThemeProvider
