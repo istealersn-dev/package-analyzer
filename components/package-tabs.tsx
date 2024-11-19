@@ -33,7 +33,7 @@ export function PackageTabs({ packagesInfo, issues, stats, packageData }: Packag
               {[
                 { value: "overview", label: "Overview" },
                 { value: "dependencies", label: "Dependencies" },
-                { value: "optimization", label: "Optimization AI" },
+                { value: "optimization", label: "AI Suggestions" },
               ].map(({ value, label }) => (
                 <TabsTrigger
                   key={value}
