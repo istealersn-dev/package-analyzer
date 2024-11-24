@@ -11,7 +11,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: 'Package.json Analyzer',
+  title: 'Package.json Analyzer | CodeSizeChecker',
   description: 'Analyze your package.json file for insights and optimization recommendations',
   icons: {
     icon: '/favicon.svg',
