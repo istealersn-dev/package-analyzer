@@ -134,7 +134,7 @@ export default function FileUploader() {
             <div className="text-center">
               <FileJson className="w-8 h-8 mx-auto mb-3 text-primary" />
               <p className="text-body mb-2">
-                Project "{packageData.name}" (v{packageData.version}) contains {Object.keys(packageData.dependencies || {}).length} dependencies and {Object.keys(packageData.devDependencies || {}).length} dev dependencies.
+                Project &quot;{packageData.name}&quot; (v{packageData.version}) contains {Object.keys(packageData.dependencies || {}).length} dependencies and {Object.keys(packageData.devDependencies || {}).length} dev dependencies.
               </p>
             </div>
             <Button
